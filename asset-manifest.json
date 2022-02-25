@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sha-shank-883/relocate.git/static/css/main.be917400.css",
+    "main.js": "/sha-shank-883/relocate.git/static/js/main.2520b980.js",
+    "static/js/787.0c3f432a.chunk.js": "/sha-shank-883/relocate.git/static/js/787.0c3f432a.chunk.js",
+    "static/media/workation.jpg": "/sha-shank-883/relocate.git/static/media/workation.3a60b3a0e847ce390873.jpg",
+    "static/media/premium.jpg": "/sha-shank-883/relocate.git/static/media/premium.10a91b876810e19fc92f.jpg",
+    "static/media/medical.jpg": "/sha-shank-883/relocate.git/static/media/medical.ef8715bca133abff9c3f.jpg",
+    "static/media/semi.jpg": "/sha-shank-883/relocate.git/static/media/semi.b31f34a4746ea8bbe58d.jpg",
+    "static/media/budget.jpg": "/sha-shank-883/relocate.git/static/media/budget.0d5957fadd0075e0eefb.jpg",
+    "static/media/try4.jpeg": "/sha-shank-883/relocate.git/static/media/try4.8687983504104621ec7f.jpeg",
+    "static/media/pg.jpg": "/sha-shank-883/relocate.git/static/media/pg.f7faaab89151ab4efe10.jpg",
+    "static/media/try15.jpeg": "/sha-shank-883/relocate.git/static/media/try15.b3c08972e7688382d28f.jpeg",
+    "static/media/check-box.png": "/sha-shank-883/relocate.git/static/media/check-box.b5cc105e6d889c60d583.png",
+    "index.html": "/sha-shank-883/relocate.git/index.html",
+    "main.be917400.css.map": "/sha-shank-883/relocate.git/static/css/main.be917400.css.map",
+    "main.2520b980.js.map": "/sha-shank-883/relocate.git/static/js/main.2520b980.js.map",
+    "787.0c3f432a.chunk.js.map": "/sha-shank-883/relocate.git/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be917400.css",
+    "static/js/main.2520b980.js"
+  ]
+}
