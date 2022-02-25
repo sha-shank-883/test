@@ -1,38 +1,313 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .header {
+    width:100%;
+     position:fixed; 
+     /* display: flex; */
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color:transparent;
+    color: #fff;
+    transform: translateY(0);
+    transition: all 0.4s;
+    z-index: 999;
   }
+
+  .header.active{
+    color: #000;
+    background-color: white !important;
+    /* width:100%; */
+     /* position:fixed;  */
+     /* display: flex; */
+    /* top: 0; */
+    /* left: 0; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* height: 80px; */
+    /* background-color:transparent; */
+    /* transform: translateY(0); */
+    /* transition: all 0.4s; */
+    /* z-index: 999; */
+  }
+
+.HeadBox{
+  width:100%;
+  display:block;
+  clear: both;
+  display: block;
+    clear: both;
+    padding: 17px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav-container{
+  /* display: flex; */
+  justify-content: center;
+  /* text-align: center; */
+  height: 80px;
+  /* max-width: 1500px; */
+  padding: 0px;
+}
+
+.Headimg{
+  width: 132px;
+  margin-left: 70px;
+}
+.headPoint{
+  float:right ;
+  margin-right: 90px;
+  text-transform: capitalize;
+}
+
+
+.headPoint ul {
+  padding: 0;
+    display: flex;
+    margin: 0px 0;
+    padding-right: 20px;
+    outline: 0;
+  }
+  .h1{
+    display: flex;
+  }
+  .h2{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 4px;
+    /* margin-right: -60px; */
+  }
+
+
+
+.banner{
+  background:url(./Components/images/try15.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+  .banner-box {
+    background-color: #0000008a;
+    padding: 139px 29px 7px 120px;
+    height: 78vh;
+}
+.headingp{
+  position: relative;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  zoom: 1;
+  display: block;
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+.mainDiv{
+  display: block;
+  text-align: center;
+  /* vertical-align: middle; */
+  margin-left: 120px;
+  /* background-color: aqua; */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.main {
+  /* background-color: red; */
+  display: flex;
+  vertical-align: middle;
+  margin-top: 10px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.banner-content {
+  color: white !important;
+  text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-left: 50px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.inputMain{
+  /* width: 100%; */
+  height: 90px;
+  /* background-color: #403d3d; */
+  height: 60px;
+  /* background-color: #fff; */
+  margin: 14px 0 0 0px;
+  border-radius: 8px;
+  width: 100%;
+  
+}
+ .inputDiv{
+
+  position: relative;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  zoom: 1;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+}
+
+
+.input1{
+
+  color: black;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  padding-left: 10px;
+  font-size: 14px;
+  outline: none;
+  margin-left: -115px;
+  height: 60px;
+  width: 48vh;
+
+}
+.input2{
+  width: 50vh;
+  height: 60px;
+  color: black;
+  border-radius: 0px 0px 0px 0px;
+  border: none;
+  padding-left: 20px;
+  font-size: 14px;
+  outline: none;
+}
+.btnDiv{
+  height: 62px;
+  width: 166px;
+  margin-top: -62px;
+  margin-left: 850px;
+  background: white;
+  border-radius: 0px 5px 5px 0px;
+}
+.a{
+ text-decoration:none;
+  margin-left:0px;
+   font-weight:400;
+   font-size:18px; 
+  color:#e25625;
+}
+.a:hover {
+   COLOR: blue;
+    TEXT-DECORATION: none;
+     font-weight: none }
+
+.Footer{
+  font-size: 13px;
+  /* height: 50%; */
+  margin-top: 50px;
+  padding-top: 70px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  bottom: 0;
+  
+}
+
+.services{
+  /* padding-left: 25px; */
+  /* margin-top: 150px; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 30px; */
+  color: white !important;
+  /* background-color: #403d3d; */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  top: 0;
+}
+
+.servicesDiv{
+  width: 100%;
+  height: auto;
+}
+.servicep{
+  font-size: 15px;
+  text-align: left;
+}
+.pngimg{
+  width: 40px;
+  height: 40px;
+  padding: 15px 12px 6px 87px;
+}
+.card{
+  width: 100%;
+  /* padding-top: 5px; */
+  display: grid;
+  gap: 1rem;
+  padding: 0px 0px 0px 0px  ;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 14rem));
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden; */
 }
 
-.App-link {
-  color: #61dafb;
+.card-box{
+  width: 86.5%;
+  display: grid;
+  /* background: linear-gradient(to top, #403d3d 0%, #cccccc1f 100%); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-img{
+  width: 350px;
+  height: 235px;
+  border-radius: 10px;
+  /* background: linear-gradient(to right, #403d3d 0%, #cccccc1f 100%); */
 }
+.color-div{
+  margin-top: -235px;
+  height: 236px;
+  display: grid;
+  border-radius:10px ;
+  width: 350px;
+  background: linear-gradient(to top, #403d3d 0%, #cccccc1f 50%);
+}
+.cardp{
+  margin-top: 195px;
+  color: white !important;
+  padding-left: 25px;
+  font-weight: 600;
+  /* background: linear-gradient(to top, #403d3d 0%, #cccccc1f 100%); */
+}
+.relocateDiv{
+  padding-left: 40px 90px;
+  /* padding-bottom: 90px; */
+}
+
+.Relocate-banner{
+  background:url(./Components/images/try4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  height: auto;
+  margin: 40px 90px;
+  border-radius: 15px;
+  transform: scaleX(-1);
+}
+  
+  .contentDiv {
+    padding-top: 40px;
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 40px;
+    height: 80vh;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(to right, #403d3d 0%, #cccccc1f 100%);
+    transform: scaleX(-1);
+  }
